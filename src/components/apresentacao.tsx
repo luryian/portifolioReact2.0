@@ -12,8 +12,9 @@ export function Apresentacao(){
         </div>
 
         <div className="divImagem">
-            <img src="/src/assets/foto.png"></img>
-            <img src="https://down-br.img.susercontent.com/file/br-11134207-7qukw-lkbcn2lhtgz5f2"></img>
+            <img src="../assets/foto.png"></img>
+            <img src="/foto.png"></img>
+            <img src="../assets/react.svg"></img>
         </div>
     </div>
 
