@@ -13,8 +13,7 @@ export function Apresentacao(){
         </div>
 
         <div className="divImagem">
-            <img src="../assets/foto.png"></img>
-            <img src="./foto.png"></img>
+            <img src="https://file.notion.so/f/f/bc784506-abc4-447b-a019-de88577513f2/662da60d-aa3f-4f6d-8614-edb7df6ab63a/Untitled.png?id=6ab2cd17-fbd3-42f7-8b23-25f7fcacd9e2&table=block&spaceId=bc784506-abc4-447b-a019-de88577513f2&expirationTimestamp=1719964800000&signature=Q40R65P3uDuHri8zIJKvoyrefX-ZP3u_kmhqsGCr-sg&downloadName=Untitled.png"></img>
         </div>
     </div>
 
