@@ -1,0 +1,64 @@
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid;
+    text-align: center;
+
+}
+
+.final > h3 {
+    font-size: 2em;
+}
+
+.logosR{
+    display: flex;
+    align-items: center;
+}
+
+.logoR{
+    transition: transform .4s ease-in-out;
+    padding-right: 1em;
+    margin: 0em 1em 2em;
+}
+
+.logoR:hover{
+    transform: scale(1.2);
+}
+
+@media (max-width: 960px) {
+    body{
+        margin: 0;
+    }
+    .final{
+        margin: 0em;
+    }
+    .final > h3 {
+        font-size: 2em;
+        margin: 1em 3em;
+    }
+}
+
+@media (max-width: 430px){
+    
+    .final > h3 {
+        font-size: 1.5em;
+        margin: 1em 1em;
+    }
+
+    .final{
+        width: 125%;
+    }
+}
+
+@media (max-width: 376px) {
+    .final{
+        width: 140%;
+    }
+
+    .final > h3 {
+        font-size: 1.5em;
+        margin: 1em 2em;
+    }
+    
+}
