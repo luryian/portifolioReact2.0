@@ -13,6 +13,7 @@ export function Apresentacao(){
 
         <div className="divImagem">
             <img src="../assets/foto.png"></img>
+            <img src="../assets/foto2.png"></img>
         </div>
     </div>
 

@@ -36,6 +36,7 @@ a{
 
  .navList > li:hover{
     transform: scale(1.3);
+    color: white;
  }
 
 
