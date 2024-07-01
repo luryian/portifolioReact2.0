@@ -1,5 +1,6 @@
 import "./apresentacao.css"
 import { GithubLogo, EnvelopeSimple, LinkedinLogo, Phone} from "@phosphor-icons/react"
+import "../assets/foto.png"
 
 export function Apresentacao(){
     return(
@@ -13,8 +14,7 @@ export function Apresentacao(){
 
         <div className="divImagem">
             <img src="../assets/foto.png"></img>
-            <img src="/foto.png"></img>
-            <img src="../assets/react.svg"></img>
+            <img src="./foto.png"></img>
         </div>
     </div>
 
