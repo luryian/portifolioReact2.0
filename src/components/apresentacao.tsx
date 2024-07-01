@@ -13,7 +13,6 @@ export function Apresentacao(){
         </div>
 
         <div className="divImagem">
-            <img src="../assets/foto.png"/>
             <img src="https://github.com/luryian/portifolioReact2.0/blob/main/src/assets/foto.png?raw=true"/>
         </div>
     </div>
