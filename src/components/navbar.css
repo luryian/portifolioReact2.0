@@ -22,12 +22,15 @@
 .navList > li{
     padding: 0.5em 2em;
     transition: transform .5s ease-in-out;
+    color: white;
 }
 
 a{
     color: white;
+    text-decoration: none;
 }
 :link {
+    color: white;
     text-decoration: none;
  }
 
