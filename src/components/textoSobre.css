@@ -10,7 +10,7 @@
     color: white;
     justify-content: center;
     display: flex;
-    margin: 1em 12em;
+    margin: 1em 10em;
     font-size: x-large;
     text-align: center;
 }
@@ -25,7 +25,7 @@
         color: white;
         justify-content: center;
         display: flex;
-        margin: 1em 3em;
+        margin: 1em 5em;
         font-size: 22px;
         text-align: center;
     }
@@ -34,7 +34,7 @@
 @media (max-width: 431px) {
     .titulo{
         width: 100%;
-        margin: 0em 0.7em;
+        margin: 0em 1.1em;
         font-size: 3.5em;
     }
 
@@ -43,7 +43,7 @@
         color: white;
         justify-content: center;
         display: flex;
-        margin: 2em 2.2em;
+        margin: 2em 2.9em;
         font-size: 22px;
         text-align: center;
     }
@@ -52,7 +52,7 @@
 @media (max-width: 376px) {
     .titulo{
         width: 100%;
-        margin: 0em 1.3em;
+        margin: 0em 2em;
         font-size: 3.5em;
     }
 

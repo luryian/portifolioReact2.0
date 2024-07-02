@@ -12,8 +12,8 @@ function App() {
     <>
       <Navbar/>
       <Apresentacao/>
-      <Tecnologias/>
       <TextoSobre/>
+      <Tecnologias/>
       <Experiencias/>
       <Rodape/>
     </>

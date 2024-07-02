@@ -17,7 +17,7 @@ export function Tecnologias(){
             <li className="tec" > <DiReact size={38} className="icones"/> React </li>
             <li className="tec" > <DiPython size={56} className="icones"/> Python básico </li>
             <li id="git" className="tec" > <DiGitBranch size={36} className="icones"/> Git e Github </li>
-            <li id="figma" className="tec" > <FigmaLogo size={42} className="icones"/> Familiariedade com Figma</li>
+            <li id="figma" className="tec" > <FigmaLogo size={46} className="icones"/> Familiariedade com Figma</li>
         </ul>
         </>
     )

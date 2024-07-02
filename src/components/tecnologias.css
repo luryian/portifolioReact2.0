@@ -3,6 +3,7 @@ html{
 }
 
 .techTitulo{
+    color: white;
     text-align: center;
     font-size: 4em;
     text-align: center;
@@ -10,6 +11,7 @@ html{
 }
 
 .tecList{
+    color: white;
     display: grid;
     grid-template-columns: auto auto auto auto ;
     margin: 2em 12em;
@@ -30,18 +32,17 @@ html{
     padding-right: 0.4em;
 }
 
-@media (max-width: 960px) {
+@media (min-width: 431) and (max-width: 960px) {
     .tecList{
         grid-template-columns: auto auto auto ;
         margin: 2em 3em;
     }
 
     .techTitulo{
-        margin-top: 3em;
+        margin-top: 2em;
     }
 
     .tec{
-        font-size: 20px;
         align-self: center;
         padding: 1.5em 0em;
         justify-content: center;
@@ -58,23 +59,24 @@ html{
 
 }
 
-@media (max-width: 430px) {
+@media (min-width: 0) and (max-width: 430px) {
     .techTitulo{
-        margin: 2em 3em 0em;
-        display: flex;
+        width: 100%;
+        margin: 2em 1.1em 0em;
         font-size: 3.5em;
     }
 
     .tecList{
-        grid-template-columns: auto auto auto ;
-        margin: 2em 1.5em;
+        width: 100%;
+        grid-template-columns: auto auto ;
+        margin: 2em 0em 2em 7em;
+        text-align: center;
     }
 
     .tec{
-        font-size: 20px;
-        align-self: center;
+        width: 60%;
         padding: 1.5em 1em;
-        justify-content: start;
+        justify-content: center;
         font-size: 18px;
     }
 }

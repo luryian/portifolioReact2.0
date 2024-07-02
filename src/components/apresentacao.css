@@ -126,14 +126,14 @@
     }
 
     .divApresentar{
-        margin: 3em 3.2em 0em;
+        margin: 3em 4em 0em;
         width: 100%;
     }
 
     .divImagem {
         display: flex;
         width: 100%;
-        margin: 0em 3.7em;
+        margin: 0em 4em;
     }
 
     .divImagem > img{
