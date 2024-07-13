@@ -48,7 +48,7 @@
 
 
 .card > div > img {
-    width: 100%;
+    width: 60%;
     align-items: center;
     display: flex;
     border-radius: 12px;
@@ -140,6 +140,10 @@
         transition: transform .5s ;
     }
 
+    .card > div > img {
+        width: 55%;
+    }
+
     .experiencias > h3 {
         font-size: 4em;
         margin-top: 2em;
@@ -160,24 +164,77 @@
 
 @media (max-width: 430px) {
     .experiencias > h3 {
-        font-size: 3.5em;
-        margin: 2em 1.4em 1em;
+        font-size: 3em;
+        margin: 2em 0em 1em;
     }
 
     .projetos > h3 {
-        font-size: 3.5em;
-        margin: 2.5em 2.5em 1em;
+        font-size: 3em;
+        margin: 2.5em 0em 1em;
     }
 
     .iconesC{
         width: 100%;
-        margin: 5em 3em;
+        margin: 5em 0em;
     }
-}
 
-@media (max-width: 376px) {
-    .iconesC{
+    .card{
+        background-color: white;
+        color: black;
+        width: 60%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 60%;
+        margin: 3em 1em;
+        border-radius: 12px;
+    
+        justify-items: center;
+        align-items: center;
+    
+        box-shadow: 2px 2px 4px black;
+        transition: transform .5s ;
+    }
+
+   
+
+    .borda{
+        grid-row: 1;
         width: 100%;
-        margin: 5em 4.7em;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-bottom: 0.1em solid black;
+        border-right: 0em;
+    }
+    
+    
+    .card > div > img {
+        width: 30%;
+        padding: 3em 0em;
+        align-items: center;
+        display: flex;
+        border-radius: 12px;
+        
+    }
+
+    .card > .textoE{
+        width: 80%;
+        color: black;
+        grid-column: 1;
+        grid-row: 2;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        justify-items: center;
+        padding: 1em;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #ifce {
+        width: 60%;
+        padding: 2em 0em;
+        border-radius: 12px;
     }
 }

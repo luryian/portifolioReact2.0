@@ -43,23 +43,17 @@
 @media (max-width: 430px){
     
     .final > h3 {
-        font-size: 1.5em;
-        margin: 1em 1em;
+        font-size: 1.3em;
+        padding: 1em 0em;
     }
 
-    .final{
-        width: 125%;
+    .logoR:hover{
+        transform: scale(1.1);
     }
 }
 
 @media (max-width: 376px) {
-    .final{
-        width: 140%;
-    }
-
     .final > h3 {
-        font-size: 1.5em;
-        margin: 1em 2em;
+        font-size: 1.1em;
     }
-    
 }

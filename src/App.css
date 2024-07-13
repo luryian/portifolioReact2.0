@@ -27,13 +27,25 @@ html{
     }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1025px) {
     @keyframes degrade_animado {
         0%{
             background-position-x: 0% ;
         }
         100%{
             background-position-x: 90% ;
+        }
+    }
+}
+
+
+@media (max-width: 960px) {
+    @keyframes degrade_animado {
+        0%{
+            background-position-x: 0% ;
+        }
+        100%{
+            background-position-x: 80% ;
         }
     }
 
@@ -60,7 +72,7 @@ html{
             background-position-x: 5% ;
         }
         100%{
-            background-position-x: 80% ;
+            background-position-x: 75% ;
         }
     }
     body{

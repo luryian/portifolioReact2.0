@@ -21,7 +21,7 @@ export function Experiencias (){
                 </div>
                 <div className="card">
                 <div className="borda">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNrz3wAxwbXVmERWubZxVBN7hrvStGwXC-yw&s"></img>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Brasao4_vertical_cor_300dpi.png"></img>
                     </div>
                     <div className="textoE">
                         <h3>Iniciação Científica</h3>

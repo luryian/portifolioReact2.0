@@ -46,7 +46,6 @@ a{
     }
     
     .navList{
-        opacity: 0;
         width: 50%;
         display: inline-flex;
         font-size: medium;
@@ -54,19 +53,28 @@ a{
     }
 
     .navList > li{
-        padding: 0.5em 0em;
+        padding: 0.5em 1em;
         text-align: center;
         color: white;
     }
+
+    .navList > li:hover{
+        transform: scale(1.1);
+        color: white;
+     }
 }
  
 @media (max-width: 430px) {
     .navegacao > h2{
+        opacity: 0;
         width: 80%;
-        padding-left: 2em;
+        padding-left: 0em;
+        font-size: 1px;
+        width: 1%;
     }
 
     .navList{
+        opacity: 0;
         font-size: 1px;
         width: 1%;
     }

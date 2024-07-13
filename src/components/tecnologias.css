@@ -10,11 +10,16 @@ html{
     margin-top: 4em;
 }
 
+.layoutTecList{
+    display: flex;
+    justify-content: center;
+}
+
 .tecList{
     color: white;
     display: grid;
-    grid-template-columns: auto auto auto auto ;
-    margin: 2em 12em;
+    grid-template-columns: auto auto auto ;
+    margin: 2em 0em;
     padding: 0;
 }
 
@@ -26,16 +31,31 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 30px;
 }
 
 .icones{
     padding-right: 0.4em;
 }
 
-@media (min-width: 431) and (max-width: 960px) {
+#figma{
+    grid-column: 2/4;
+}
+
+#git{
+    grid-column: 1/2;
+}
+
+@media (max-width: 1025px) {
+    .tec{
+        font-size: 26px;
+    }
+}
+
+@media (min-width:431px ) and (max-width: 960px) {
     .tecList{
         grid-template-columns: auto auto auto ;
-        margin: 2em 3em;
+        margin: 2em;
     }
 
     .techTitulo{
@@ -44,39 +64,44 @@ html{
 
     .tec{
         align-self: center;
-        padding: 1.5em 0em;
+        padding: 1.5em 1.5em;
         justify-content: center;
         font-size: 18px;
     }
-
-    #figma{
-        grid-column: 2/4;
-    }
-
-    #git{
-        grid-column: 1/2;
-    }
-
 }
 
-@media (min-width: 0) and (max-width: 430px) {
+@media (max-width: 430px) {
     .techTitulo{
-        width: 100%;
-        margin: 2em 1.1em 0em;
-        font-size: 3.5em;
+        margin: 2em 0em 0em;
+        font-size: 2.5em;
     }
 
     .tecList{
-        width: 100%;
-        grid-template-columns: auto auto ;
-        margin: 2em 0em 2em 7em;
+        grid-template-columns: auto auto;
+        margin: 2em auto 2em;
         text-align: center;
     }
 
     .tec{
-        width: 60%;
-        padding: 1.5em 1em;
+        width: 70%;
+        padding: 1.5em 2em;
         justify-content: center;
-        font-size: 18px;
+        font-size: 16px;
+    }
+    #figma{
+        grid-column: 2;
+    }
+    
+    #git{
+        grid-column: 1;
+    }
+}
+
+@media (max-width: 376px) {
+    .tec{
+        width: 70%;
+        padding: 1.5em 2.1em;
+        justify-content: center;
+        font-size: 14px;
     }
 }
