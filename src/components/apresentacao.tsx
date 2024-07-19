@@ -19,8 +19,8 @@ export function Apresentacao(){
 
     <div className="rodape">
         <div className="logos">
-            <GithubLogo size={64} className="logo"/>
-            <LinkedinLogo size={64} className="logo"/>
+            <a href="https://github.com/luryian" ><GithubLogo size={64} className="logo"/></a>
+            <a href="https://www.linkedin.com/in/lucas-ryan-fernandes-de-melo-a94076191/" ><LinkedinLogo size={64} className="logo"/></a>
         </div>
 
         <div className="cont">

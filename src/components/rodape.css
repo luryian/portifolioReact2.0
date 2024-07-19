@@ -17,14 +17,20 @@
     align-items: center;
 }
 
+a:link{
+    text-decoration: none;
+}
+
 .logoR{
     transition: transform .4s ease-in-out;
     padding-right: 1em;
     margin: 0em 1em 2em;
+    color: white;
 }
 
 .logoR:hover{
     transform: scale(1.2);
+    color: white;
 }
 
 @media (max-width: 960px) {
